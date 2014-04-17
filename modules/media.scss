@@ -1,0 +1,40 @@
+/**
+* @desc         Media Object, for positioning images and HTML 
+*               content together
+* @name         media
+* @requires     none
+* @usage        media, contains object components
+*               media__img REQUIRED, IMG element
+*               media__body REQUIRED, DIV containing content
+*
+*               Default is image floats to the left. Modifiers *               included for top, bottom, and right floating images.
+*/
+
+.media {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    _overflow: visible;
+    zoom: 1;
+}
+
+.media__img {
+    float: left;
+    display: block;
+}
+
+    // For images to stack on top of or below content
+    .media__img--nofloat {
+        float: none;
+    }
+
+    // For images to float to the right of content
+    .media__img--right {
+        float: right;
+    }
+
+.media__body {
+    overflow: hidden;
+    _overflow: visible;
+    zoom: 1;
+}

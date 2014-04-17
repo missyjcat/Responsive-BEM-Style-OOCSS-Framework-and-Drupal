@@ -1,0 +1,71 @@
+/**
+* @desc         Spacing utility classes
+* @name         spacing
+* @requires     none
+* @usage        Classes related to spacing are prefixed with m-
+*               for margin, p- for padding.
+*/
+
+    // margin-top
+    .m-top-xsmall  { @include rem(margin-top, $spacing-xs); }
+    .m-top-small { @include rem(margin-top, $spacing-s); }
+    .m-top-medium { @include rem(margin-top, $spacing-m); }
+    .m-top-large { @include rem(margin-top, $spacing-l); }
+    .m-top-xlarge { @include rem(margin-top, $spacing-xl); }
+    .m-top-xxlarge { @include rem(margin-top, $spacing-xxl); }
+
+    // margin-right
+    .m-right-xsmall { @include rem(margin-right, $spacing-xs); }
+    .m-right-small { @include rem(margin-right, $spacing-s); }
+    .m-right-medium { @include rem(margin-right, $spacing-m); }
+    .m-right-large { @include rem(margin-right, $spacing-l); }
+    .m-right-xlarge { @include rem(margin-right, $spacing-xl); }
+    .m-right-xxlarge { @include rem(margin-right, $spacing-xxl); }
+
+    // margin-bottom
+    .m-bottom-xsmall { @include rem(margin-bottom, $spacing-xs); }
+    .m-bottom-small { @include rem(margin-bottom, $spacing-s); }
+    .m-bottom-medium { @include rem(margin-bottom, $spacing-m); }
+    .m-bottom-large { @include rem(margin-bottom, $spacing-l); }
+    .m-bottom-xlarge { @include rem(margin-bottom, $spacing-xl); }
+    .m-bottom-xxlarge { @include rem(margin-bottom, $spacing-xxl); }
+
+    // margin-left
+    .m-left-xsmall { @include rem(margin-left, $spacing-xs); }
+    .m-left-small { @include rem(margin-left, $spacing-s); }
+    .m-left-medium { @include rem(margin-left, $spacing-m); }
+    .m-left-large { @include rem(margin-left, $spacing-l); }
+    .m-left-xlarge { @include rem(margin-left, $spacing-xl); }
+    .m-left-xxlarge { @include rem(margin-left, $spacing-xxl); }
+
+    // padding-top
+    .p-top-xsmall { @include rem(padding-top, $spacing-xs); }
+    .p-top-small { @include rem(padding-top, $spacing-s); }
+    .p-top-medium { @include rem(padding-top, $spacing-m); }
+    .p-top-large { @include rem(padding-top, $spacing-l); }
+    .p-top-xlarge { @include rem(padding-top, $spacing-xl); }
+    .p-top-xxlarge { @include rem(padding-top, $spacing-xxl); }
+
+    // padding-right
+    .p-right-xsmall { @include rem(padding-right, $spacing-xs); }
+    .p-right-small { @include rem(padding-right, $spacing-s); }
+    .p-right-medium { @include rem(padding-right, $spacing-m); }
+    .p-right-large { @include rem(padding-right, $spacing-l); }
+    .p-right-xlarge { @include rem(padding-right, $spacing-xl); }
+    .p-right-xxlarge { @include rem(padding-right, $spacing-xxl); }
+
+    // padding-bottom
+    .p-bottom-xsmall { @include rem(padding-bottom, $spacing-xs); }
+    .p-bottom-small { @include rem(padding-bottom, $spacing-s); }
+    .p-bottom-medium { @include rem(padding-bottom, $spacing-m); }
+    .p-bottom-large { @include rem(padding-bottom, $spacing-l); }
+    .p-bottom-xlarge { @include rem(padding-bottom, $spacing-xl); }
+    .p-bottom-xxlarge { @include rem(padding-bottom, $spacing-xxl); }
+
+    // padding-left
+    .p-left-xsmall { @include rem(padding-left, $spacing-xs); }
+    .p-left-small { @include rem(padding-left, $spacing-s); }
+    .p-left-medium { @include rem(padding-left, $spacing-m); }
+    .p-left-large { @include rem(padding-left, $spacing-l); }
+    .p-left-xlarge { @include rem(padding-left, $spacing-xl); }
+    .p-left-xxlarge { @include rem(padding-left, $spacing-xxl); }

@@ -1,0 +1,65 @@
+/** 
+* COLORS
+*/
+
+    $color-white: #ffffff;
+    $color-grey-light: #aaaaaa;
+    $color-grey: #6f6f6f;
+    $color-grey-dark: #333333;
+    $color-blue-light: #dce2e6;
+    $color-blue-lighter: #f1f6f9;
+    $color-blue: #92a3b1;
+    $color-blue-dark: #4F6E84;
+    $color-red: #fd0900;
+
+/** 
+* BASE STYLES
+*/
+
+    // Set base font size for HTML element
+    $base-font-size: 15px;
+
+    // Some default font sizes
+    $base-font-size--xxsmall: 9px;
+    $base-font-size--xsmall: 10px;
+    $base-font-size--small: 11px;
+    $base-font-size--medium: $base-font-size;
+    $base-font-size--large: 18px;
+    $base-font-size--xlarge: 21px;
+    $base-font-size--xxlarge: 28px;
+
+    // Matching line-heights
+    $base-line-height--xxsmall: 12px;
+    $base-line-height--xsmall: 13px;
+    $base-line-height--small: 14px;
+    $base-line-height--medium: 18px;
+    $base-line-height--large: 21px;
+    $base-line-height--xlarge: 25px;
+    $base-line-height--xxlarge: 31px;
+
+
+    // Set base fixed width for fixed width layouts
+    $base-fixed-width: 960px;
+
+    // Set breakpoints we will be using
+    $base-breakpoint-xl: 1600px;
+    $base-breakpoint-m: 1400px;
+    $base-breakpoint-s-landscape: 1100px;
+    $base-breakpoint-s-portrait: 800px;
+    $base-breakpoint-xs-landscape: 500px;
+    $base-breakpoint-xs-portrait: 400px;
+
+    $base-link-color: $color-blue;
+    $base-font-family-p: 'Arial', 'sans-serif';
+
+
+/**
+* SPACING VARIABLES
+*/
+
+    $spacing-xs: 5px; 
+    $spacing-s: 10px;
+    $spacing-m: 15px;
+    $spacing-l: 20px;
+    $spacing-xl: 25px;
+    $spacing-xxl: 30px;

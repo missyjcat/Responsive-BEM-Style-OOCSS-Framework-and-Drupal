@@ -1,0 +1,86 @@
+html {
+    font-size: $base-font-size;
+    font-family: $base-font-family-p;
+}
+
+h1, .alpha {
+    @include rem(font-size, 36px);
+    @include rem(margin, 0 auto);
+}
+
+h2, .beta {
+    @include rem(font-size, 30px);
+    @include rem(margin, 0 auto);
+}
+
+h3, .gamma {
+    @include rem(font-size, 25px);
+    @include rem(margin, 0 auto);
+}
+
+h4, .delta {
+    @include rem(font-size, 20px);
+    @include rem(margin, 0 auto);
+}
+
+h5, .epsilon {
+    @include rem(font-size, 18px);
+    @include rem(margin, 0 auto);
+}
+
+p {
+    @include rem(font-size, $base-font-size);
+    @include rem(line-height, 1.4*$base-font-size);
+}
+
+strong, b, .font-weight--strong {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: $base-link-color;
+    
+    &:link, 
+    &:visited, 
+    &:hover, 
+    &:active {
+        text-decoration: none;
+        color: $base-link-color;
+    }
+}
+
+.font-size--xxsmall {
+        @include rem(font-size, $base-font-size--xxsmall);
+        @include rem(line-height, $base-line-height--xxsmall);
+    }
+
+.font-size--xsmall {
+        @include rem(font-size, $base-font-size--xsmall);
+        @include rem(line-height, $base-line-height--xsmall);
+    }
+
+.font-size--small {
+        @include rem(font-size, $base-font-size--small);
+        @include rem(line-height, $base-line-height--small);
+    }
+
+.font-size--medium {
+        @include rem(font-size, $base-font-size--medium);
+        @include rem(line-height, $base-line-height--medium);
+    }
+
+.font-size--large {
+        @include rem(font-size, $base-font-size--large);
+        @include rem(line-height, $base-line-height--large);
+    }
+
+.font-size--xlarge {
+        @include rem(font-size, $base-font-size--xlarge);
+        @include rem(line-height, $base-line-height--xlarge);
+    }
+
+.font-size--xxlarge {
+        @include rem(font-size, $base-font-size--xxlarge);
+        @include rem(line-height, $base-line-height--xxlarge);
+    }

@@ -1,0 +1,15 @@
+/**
+* @desc         Logo Object, displays instances of the logo
+* @name         logo
+* @usage        logo, base object
+*               logo__img REQUIRED, image element contains logo
+*/
+
+.logo {
+    display: block;
+}
+
+.logo__img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,17 @@
+/**
+* @desc         Menu objects, arranges navigation elements
+* @name         menu
+* @usage        menu, base object
+*               menu__item REQUIRED, element that contains an A 
+*               element
+*/
+
+.menu {
+    display: table;
+    width: 100%;
+}
+
+.menu__item {
+    display: table-cell;
+    text-align: center;
+}

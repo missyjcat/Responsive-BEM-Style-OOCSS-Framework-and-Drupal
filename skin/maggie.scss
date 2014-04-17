@@ -1,0 +1,164 @@
+/**
+* @desc         Maggie skin initiated with Media content 
+*               type and EU microsite look and feel
+* @name         maggie
+*/
+
+// VARIABLES FOR MAGGIE SKIN
+$lightBlue: #e1e7f0;
+$mediumBlue: #94abcb;
+$darkBlue: #879ec7;
+$darkerBlue: #6787b5;
+$darkerBlue2: #6787b5;
+$white: #ffffff;
+$darkgrey: #333333;
+$red: #ed1c24;
+$lightgrey: #e1e1e1;
+
+@mixin soft-grey-glow {
+    -webkit-box-shadow: 0 1px 3px 1px #D9D9D9;
+    box-shadow: 0 1px 3px 1px #D9D9D9;
+    border: 1px solid $lightgrey;
+}
+
+.skin--maggie {
+
+    // Setting base font to Futura Book
+    p {
+        font-family: 'FuturaBT-Book', 'Arial', sans-serif;
+    }
+
+    // Creating a topborder object that applies a thick blue line
+    .topborder--bluesky {
+        border-top: 15px $darkerBlue2 solid;
+    }
+
+    // Skinning the main menu
+    .menu--main { 
+
+        font-family: 'FuturaBT-Book', 'Arial', sans-serif;
+        background-color: $mediumBlue;
+
+        .l-fixed-inner {
+            border-left: 1px white solid;
+        }
+
+        .menu__item {
+            border-right: 1px white solid;
+
+            &:hover {
+                background-image: none;
+                background-color: $darkerBlue;
+            }
+
+            .active {
+                font-weight: 400;
+                background-color: $darkerBlue;
+            }
+
+            // Styling the "a" element here because drupal doesn't
+            // make it very easy to add classes to a elements in menus
+            a {
+                color: #FFFFFF;
+                font-family: 'FuturaBT-Book', Arial, sans-serif;
+                @include rem(padding, 12px 20px);
+                display: block;
+                text-transform: uppercase;
+            }
+
+        }
+
+    }
+
+    // List Objects
+    .list--countrylist {
+        @include soft-grey-glow;
+        padding: 15px 0;
+    
+        .list__item {
+            padding: 3px 15px;
+
+            &:hover {
+                background-color: $lightBlue;
+            }
+        }
+    }
+
+    .list {
+
+        .list__item {
+            @include rem(margin-left, 10px);
+        }
+    
+    }
+
+    // Skinning the front logo
+
+    .logo--front {
+        @include rem(width, 307px);
+    }
+
+    // Background objects
+
+    .background--lightblue {
+        background-color: $lightBlue;
+    }
+
+    .background--darkblue {
+        background-color: $darkBlue;
+    }
+
+    // Skinning the header classes
+
+    h1, .alpha {
+        text-align: center;
+        font-family: 'FuturaBT-Book', 'Arial', sans-serif;
+        color: $darkerBlue2;
+    }
+
+    .alpha--downone {
+        @include rem(font-size, 33px);
+    }
+
+    h2, .beta {
+        text-align: center;
+        font-family: 'FuturaBT-Book', 'Arial', sans-serif;
+        color: $darkerBlue2;
+    }
+
+    h3, .gamma {
+        text-align: center;
+        font-family: 'FuturaBT-Book', 'Arial', sans-serif;
+        color: $darkerBlue2;
+    }
+
+    .gamma--upone {
+        @include rem(font-size, 27px);
+    }
+
+    h4, .delta {
+        text-align: center;
+        font-family: 'FuturaBT-Book', 'Arial', sans-serif;
+        color: $darkerBlue2;
+    }
+
+    h5, .epsilon {
+        text-align: center;
+        font-family: 'FuturaBT-Book', 'Arial', sans-serif;
+        color: $darkerBlue2;
+    }
+
+    // Color object
+    .color--white {
+        color: $white;
+    }
+
+    .color--grey {
+        color: $darkgrey;
+    }
+
+    .color--red {
+        color: $red;
+    }
+
+}

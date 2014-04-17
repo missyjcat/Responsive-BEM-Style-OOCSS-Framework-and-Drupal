@@ -1,0 +1,21 @@
+/**
+* @desc         Positioning
+* @name         positioning
+* @requires     none
+* @usage        Classes related to positioning
+*/
+
+// clear
+    .l-clear-none { clear: none;}
+    .l-clear-left { clear: left; }
+    .l-clear-right { clear: right; }
+    .l-clear-both { clear: both; }
+
+// float
+    .l-float-left  { float: left; }
+    .l-float-right { float: right; }
+
+// text-align
+    .l-text-left { text-align: left; }
+    .l-text-right { text-align: right; }
+    .l-text-center { text-align: center; }
