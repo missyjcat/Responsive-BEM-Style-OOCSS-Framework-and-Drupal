@@ -13,13 +13,6 @@ $darkerBlue2: #6787b5;
 $white: #ffffff;
 $darkgrey: #333333;
 $red: #ed1c24;
-$lightgrey: #e1e1e1;
-
-@mixin soft-grey-glow {
-    -webkit-box-shadow: 0 1px 3px 1px #D9D9D9;
-    box-shadow: 0 1px 3px 1px #D9D9D9;
-    border: 1px solid $lightgrey;
-}
 
 .skin--maggie {
 
@@ -34,8 +27,7 @@ $lightgrey: #e1e1e1;
     }
 
     // Skinning the main menu
-    .menu--main { 
-
+    .menu--main {
         font-family: 'FuturaBT-Book', 'Arial', sans-serif;
         background-color: $mediumBlue;
 
@@ -68,28 +60,6 @@ $lightgrey: #e1e1e1;
 
         }
 
-    }
-
-    // List Objects
-    .list--countrylist {
-        @include soft-grey-glow;
-        padding: 15px 0;
-    
-        .list__item {
-            padding: 3px 15px;
-
-            &:hover {
-                background-color: $lightBlue;
-            }
-        }
-    }
-
-    .list {
-
-        .list__item {
-            @include rem(margin-left, 10px);
-        }
-    
     }
 
     // Skinning the front logo
@@ -146,6 +116,15 @@ $lightgrey: #e1e1e1;
         text-align: center;
         font-family: 'FuturaBT-Book', 'Arial', sans-serif;
         color: $darkerBlue2;
+    }
+
+    // List Objects
+    .list {
+
+        .list--fancy .list__item {
+            @include rem(margin-left, 10px);
+        }
+
     }
 
     // Color object

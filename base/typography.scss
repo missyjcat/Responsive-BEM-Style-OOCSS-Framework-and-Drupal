@@ -33,7 +33,7 @@ p {
     @include rem(line-height, 1.4*$base-font-size);
 }
 
-strong, b, .font-weight--strong {
+strong, b, .t-strong {
     font-weight: bold;
 }
 
