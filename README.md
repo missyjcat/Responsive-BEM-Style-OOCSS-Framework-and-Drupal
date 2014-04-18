@@ -1,7 +1,9 @@
-stCSS-BEM
-=========
+jessCSS-BEM
+===========
 
-### SquareTrade OOCSS Framework using SASS and BEM
+### Jess's OOCSS Framework using SASS and BEM
+
+http://www.jessicachanstudios.com/
 
 Some tenets of OOCSS followed here and some choices made:
 - Layout classes are prefixed with `l-` (grid and positioning), spacing classes are prefixed with `m-` for margin and `p-` for padding.
